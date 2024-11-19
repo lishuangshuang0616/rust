@@ -1,0 +1,8 @@
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/lib/libz.a
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/include/zlib.h
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/include/zlib_name_mangling.h
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/include/zconf.h
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/lib/pkgconfig/zlib.pc
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/lib/libz.a
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/lib/cmake/ZLIB/ZLIB.cmake
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/lib/cmake/ZLIB/ZLIB-debug.cmake

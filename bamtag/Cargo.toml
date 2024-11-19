@@ -1,0 +1,13 @@
+[package]
+name = "bam_tag_editor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "2.33.3"
+rust-htslib = "0.43.0"
+rayon = "1.5"
+
+[dependencies.indexmap]
+version = "1.7.0"
+features = ["std"]

@@ -1,0 +1,9 @@
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/zlib.dir
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/package.dir
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/package_source.dir
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/list_install_components.dir
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/install.dir
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/install/local.dir
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,38 @@
+Determining if the include file arm_acle.h exists failed with the following output:
+Change Dir: /mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27638/fast && gmake: Warning: File 'Makefile' has modification time 3.3 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_27638.dir/build.make CMakeFiles/cmTC_27638.dir/build
+gmake[1]: Entering directory '/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_27638.dir/flags.make' has modification time 3.3 s in the future
+Building C object CMakeFiles/cmTC_27638.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -std=c11 -o CMakeFiles/cmTC_27638.dir/CheckIncludeFile.c.o -c /mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: arm_acle.h: No such file or directory
+    1 | #include <arm_acle.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_27638.dir/build.make:78: CMakeFiles/cmTC_27638.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_27638/fast] Error 2
+
+
+
+Determining if the include file sys/sdt.h exists failed with the following output:
+Change Dir: /mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_99d3e/fast && gmake: Warning: File 'Makefile' has modification time 3.8 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_99d3e.dir/build.make CMakeFiles/cmTC_99d3e.dir/build
+gmake[1]: Entering directory '/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_99d3e.dir/flags.make' has modification time 3.7 s in the future
+Building C object CMakeFiles/cmTC_99d3e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -std=c11 -o CMakeFiles/cmTC_99d3e.dir/CheckIncludeFile.c.o -c /mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/sdt.h: No such file or directory
+    1 | #include <sys/sdt.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_99d3e.dir/build.make:78: CMakeFiles/cmTC_99d3e.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_99d3e/fast] Error 2
+
+
+

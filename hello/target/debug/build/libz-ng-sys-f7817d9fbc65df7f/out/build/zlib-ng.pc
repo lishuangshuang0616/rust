@@ -1,0 +1,14 @@
+prefix=D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out
+exec_prefix=${prefix}
+symbol_prefix=
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib-ng
+Description: zlib-ng compression library
+Version: 2.1.6
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz-ng
+Cflags: -I${includedir} -DWITH_GZFILEOP

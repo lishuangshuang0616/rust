@@ -1,0 +1,17 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_FLAGS
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_FLAGS
+
+
+gmake: Warning: File 'Makefile' has modification time 2.9 s in the future
+gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 2.5 s in the future
+gmake[2]: Warning: File 'CMakeFiles/zlib.dir/flags.make' has modification time 2.4 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/zlib.dir/flags.make' has modification time 2.1 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake: warning:  Clock skew detected.  Your build may be incomplete.

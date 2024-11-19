@@ -1,0 +1,10 @@
+^D:\FILES\SHARE\LISHUANGSHUANG\PIPELINE\LEARNING\RUST\HELLO\TARGET\DEBUG\BUILD\LIBZ-NG-SYS-F7817D9FBC65DF7F\OUT\BUILD\CMAKEFILES\9E4C9F38CB8233F1D0F9FF435D02E444\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Files\share\lishuangshuang\pipeline\learning\rust\hello\target\debug\build\libz-ng-sys-57566e67ad75161a\out\build\CMakeFiles\f4ed38b187984c2f78e05296901be19e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C2AAD8B7-385E-3459-81CE-B71D030C2F7D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

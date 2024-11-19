@@ -1,0 +1,8 @@
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/lib/zlibstatic-ngd.lib
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/include/zlib-ng.h
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/include/zlib_name_mangling-ng.h
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/include/zconf-ng.h
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/lib/pkgconfig/zlib-ng.pc
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/lib/zlibstatic-ngd.lib
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/lib/cmake/zlib-ng/zlib-ng.cmake
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/lib/cmake/zlib-ng/zlib-ng-debug.cmake

@@ -1,0 +1,14 @@
+prefix=/mnt/hgfs/lishuangshuang/pipeline/learning/rust/bamtag/target/debug/build/libz-sys-b1db84f86c238c0e/out
+exec_prefix=${prefix}
+symbol_prefix=
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib-ng compression library
+Version: 1.3.0.zlib-ng
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir} -DWITH_GZFILEOP

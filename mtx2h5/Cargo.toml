@@ -1,0 +1,11 @@
+[package]
+name = "mtx2h5"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.1.6", features = ["derive"] }
+csv = "1.1.6"
+ndarray = "0.15.4"
+hdf5 = "0.8.1"
+flate2 = "1.0.25"

@@ -1,0 +1,1759 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:35 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:35 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      生成启动时间为 2024/10/24 15:54:56。
+      
+      节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:03.89
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/3.31.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:35 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-xegg5e"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-xegg5e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-xegg5e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80759.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:00。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xegg5e\\cmTC_80759.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_80759.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xegg5e\\Debug\\”。
+          正在创建目录“cmTC_80759.dir\\Debug\\cmTC_80759.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_80759.dir\\Debug\\cmTC_80759.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_80759.dir\\Debug\\\\" /Fd"cmTC_80759.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\LenovoSoftstore\\Install\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xegg5e\\Debug\\cmTC_80759.exe" /INCREMENTAL /ILK:"cmTC_80759.dir\\Debug\\cmTC_80759.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-xegg5e/Debug/cmTC_80759.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-xegg5e/Debug/cmTC_80759.lib" /MACHINE:X64  /machine:x64 cmTC_80759.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_80759.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xegg5e\\Debug\\cmTC_80759.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_80759.dir\\Debug\\cmTC_80759.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_80759.dir\\Debug\\cmTC_80759.tlog\\cmTC_80759.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xegg5e\\cmTC_80759.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:35 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:35 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.36.32532.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:315 (check_include_file)"
+    checks:
+      - "Looking for arm_acle.h"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-1is5lw"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-1is5lw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_ARM_ACLE_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-1is5lw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b361e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:01。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1is5lw\\cmTC_b361e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b361e.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1is5lw\\Debug\\”。
+          正在创建目录“cmTC_b361e.dir\\Debug\\cmTC_b361e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b361e.dir\\Debug\\cmTC_b361e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_b361e.dir\\Debug\\\\" /Fd"cmTC_b361e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1is5lw\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1is5lw\\CheckIncludeFile.c(1,1): fatal  error C1083: 无法打开包括文件: “arm_acle.h”: No such file or directory [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1is5lw\\cmTC_b361e.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1is5lw\\cmTC_b361e.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1is5lw\\cmTC_b361e.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1is5lw\\CheckIncludeFile.c(1,1): fatal  error C1083: 无法打开包括文件: “arm_acle.h”: No such file or directory [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1is5lw\\cmTC_b361e.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:319 (check_include_file)"
+    checks:
+      - "Looking for sys/auxv.h"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-llifvy"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-llifvy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SYS_AUXV_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-llifvy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e8db6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:01。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llifvy\\cmTC_e8db6.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e8db6.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llifvy\\Debug\\”。
+          正在创建目录“cmTC_e8db6.dir\\Debug\\cmTC_e8db6.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e8db6.dir\\Debug\\cmTC_e8db6.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_e8db6.dir\\Debug\\\\" /Fd"cmTC_e8db6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llifvy\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llifvy\\CheckIncludeFile.c(1,1): fatal  error C1083: 无法打开包括文件: “sys/auxv.h”: No such file or directory [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llifvy\\cmTC_e8db6.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llifvy\\cmTC_e8db6.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llifvy\\cmTC_e8db6.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llifvy\\CheckIncludeFile.c(1,1): fatal  error C1083: 无法打开包括文件: “sys/auxv.h”: No such file or directory [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llifvy\\cmTC_e8db6.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:323 (check_include_file)"
+    checks:
+      - "Looking for sys/sdt.h"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-7s91ql"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-7s91ql"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SYS_SDT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-7s91ql'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0fa01.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:02。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s91ql\\cmTC_0fa01.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_0fa01.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s91ql\\Debug\\”。
+          正在创建目录“cmTC_0fa01.dir\\Debug\\cmTC_0fa01.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_0fa01.dir\\Debug\\cmTC_0fa01.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_0fa01.dir\\Debug\\\\" /Fd"cmTC_0fa01.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s91ql\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s91ql\\CheckIncludeFile.c(1,1): fatal  error C1083: 无法打开包括文件: “sys/sdt.h”: No such file or directory [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s91ql\\cmTC_0fa01.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s91ql\\cmTC_0fa01.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s91ql\\cmTC_0fa01.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s91ql\\CheckIncludeFile.c(1,1): fatal  error C1083: 无法打开包括文件: “sys/sdt.h”: No such file or directory [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s91ql\\cmTC_0fa01.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:327 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-waaqxw"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-waaqxw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-waaqxw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3678f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:02。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-waaqxw\\cmTC_3678f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3678f.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-waaqxw\\Debug\\”。
+          正在创建目录“cmTC_3678f.dir\\Debug\\cmTC_3678f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3678f.dir\\Debug\\cmTC_3678f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_3678f.dir\\Debug\\\\" /Fd"cmTC_3678f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-waaqxw\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-waaqxw\\CheckIncludeFile.c(1,1): fatal  error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-waaqxw\\cmTC_3678f.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-waaqxw\\cmTC_3678f.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-waaqxw\\cmTC_3678f.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-waaqxw\\CheckIncludeFile.c(1,1): fatal  error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-waaqxw\\cmTC_3678f.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:262 (check_include_file)"
+      - "CMakeLists.txt:333 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-1d2crl"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-1d2crl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-1d2crl'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_da4d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:03。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1d2crl\\cmTC_da4d2.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_da4d2.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1d2crl\\Debug\\”。
+          正在创建目录“cmTC_da4d2.dir\\Debug\\cmTC_da4d2.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_da4d2.dir\\Debug\\cmTC_da4d2.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_da4d2.dir\\Debug\\\\" /Fd"cmTC_da4d2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1d2crl\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1d2crl\\Debug\\cmTC_da4d2.exe" /INCREMENTAL /ILK:"cmTC_da4d2.dir\\Debug\\cmTC_da4d2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-1d2crl/Debug/cmTC_da4d2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-1d2crl/Debug/cmTC_da4d2.lib" /MACHINE:X64  /machine:x64 cmTC_da4d2.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_da4d2.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1d2crl\\Debug\\cmTC_da4d2.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_da4d2.dir\\Debug\\cmTC_da4d2.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_da4d2.dir\\Debug\\cmTC_da4d2.tlog\\cmTC_da4d2.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1d2crl\\cmTC_da4d2.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:263 (check_include_file)"
+      - "CMakeLists.txt:333 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-uxc2xz"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-uxc2xz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-uxc2xz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d2f56.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:04。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uxc2xz\\cmTC_d2f56.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d2f56.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uxc2xz\\Debug\\”。
+          正在创建目录“cmTC_d2f56.dir\\Debug\\cmTC_d2f56.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d2f56.dir\\Debug\\cmTC_d2f56.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_d2f56.dir\\Debug\\\\" /Fd"cmTC_d2f56.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uxc2xz\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uxc2xz\\Debug\\cmTC_d2f56.exe" /INCREMENTAL /ILK:"cmTC_d2f56.dir\\Debug\\cmTC_d2f56.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-uxc2xz/Debug/cmTC_d2f56.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-uxc2xz/Debug/cmTC_d2f56.lib" /MACHINE:X64  /machine:x64 cmTC_d2f56.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d2f56.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uxc2xz\\Debug\\cmTC_d2f56.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d2f56.dir\\Debug\\cmTC_d2f56.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d2f56.dir\\Debug\\cmTC_d2f56.tlog\\cmTC_d2f56.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uxc2xz\\cmTC_d2f56.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "CMakeLists.txt:333 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-op58wo"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-op58wo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-op58wo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d09b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:04。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-op58wo\\cmTC_d09b0.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d09b0.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-op58wo\\Debug\\”。
+          正在创建目录“cmTC_d09b0.dir\\Debug\\cmTC_d09b0.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d09b0.dir\\Debug\\cmTC_d09b0.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_d09b0.dir\\Debug\\\\" /Fd"cmTC_d09b0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-op58wo\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-op58wo\\Debug\\cmTC_d09b0.exe" /INCREMENTAL /ILK:"cmTC_d09b0.dir\\Debug\\cmTC_d09b0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-op58wo/Debug/cmTC_d09b0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-op58wo/Debug/cmTC_d09b0.lib" /MACHINE:X64  /machine:x64 cmTC_d09b0.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d09b0.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-op58wo\\Debug\\cmTC_d09b0.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d09b0.dir\\Debug\\cmTC_d09b0.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d09b0.dir\\Debug\\cmTC_d09b0.tlog\\cmTC_d09b0.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-op58wo\\cmTC_d09b0.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:333 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-779h6s"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-779h6s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-779h6s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_219c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:05。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_219c8.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\Debug\\”。
+          正在创建目录“cmTC_219c8.dir\\Debug\\cmTC_219c8.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_219c8.dir\\Debug\\cmTC_219c8.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_219c8.dir\\Debug\\\\" /Fd"cmTC_219c8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\OFF64_T.c"
+          OFF64_T.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\OFF64_T.c(29,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\OFF64_T.c(30,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\OFF64_T.c(31,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\OFF64_T.c(32,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\OFF64_T.c(33,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\OFF64_T.c(29,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\OFF64_T.c(30,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\OFF64_T.c(31,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\OFF64_T.c(32,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\OFF64_T.c(33,12): error C2065: “off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-779h6s\\cmTC_219c8.vcxproj]
+        
+            0 个警告
+            5 个错误
+        
+        已用时间 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:337 (check_type_size)"
+    checks:
+      - "Check size of _off64_t"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-5erals"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-5erals"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE__OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-5erals'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_af71c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:06。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_af71c.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\Debug\\”。
+          正在创建目录“cmTC_af71c.dir\\Debug\\cmTC_af71c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_af71c.dir\\Debug\\cmTC_af71c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_af71c.dir\\Debug\\\\" /Fd"cmTC_af71c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\_OFF64_T.c"
+          _OFF64_T.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\_OFF64_T.c(29,12): error C2065: “_off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\_OFF64_T.c(30,12): error C2065: “_off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\_OFF64_T.c(31,12): error C2065: “_off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\_OFF64_T.c(32,12): error C2065: “_off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\_OFF64_T.c(33,12): error C2065: “_off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\_OFF64_T.c(29,12): error C2065: “_off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\_OFF64_T.c(30,12): error C2065: “_off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\_OFF64_T.c(31,12): error C2065: “_off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\_OFF64_T.c(32,12): error C2065: “_off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\_OFF64_T.c(33,12): error C2065: “_off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5erals\\cmTC_af71c.vcxproj]
+        
+            0 个警告
+            5 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:341 (check_type_size)"
+    checks:
+      - "Check size of __off64_t"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-mt0uzw"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-mt0uzw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE___OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-mt0uzw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dac7e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:06。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_dac7e.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\Debug\\”。
+          正在创建目录“cmTC_dac7e.dir\\Debug\\cmTC_dac7e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_dac7e.dir\\Debug\\cmTC_dac7e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_dac7e.dir\\Debug\\\\" /Fd"cmTC_dac7e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\__OFF64_T.c"
+          __OFF64_T.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\__OFF64_T.c(29,12): error C2065: “__off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\__OFF64_T.c(30,12): error C2065: “__off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\__OFF64_T.c(31,12): error C2065: “__off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\__OFF64_T.c(32,12): error C2065: “__off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\__OFF64_T.c(33,12): error C2065: “__off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\__OFF64_T.c(29,12): error C2065: “__off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\__OFF64_T.c(30,12): error C2065: “__off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\__OFF64_T.c(31,12): error C2065: “__off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\__OFF64_T.c(32,12): error C2065: “__off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\__OFF64_T.c(33,12): error C2065: “__off64_t”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt0uzw\\cmTC_dac7e.vcxproj]
+        
+            0 个警告
+            5 个错误
+        
+        已用时间 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:349 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-hkrqed"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-hkrqed"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-hkrqed'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4fd4b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:07。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\cmTC_4fd4b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_4fd4b.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\Debug\\”。
+          正在创建目录“cmTC_4fd4b.dir\\Debug\\cmTC_4fd4b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_4fd4b.dir\\Debug\\cmTC_4fd4b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_4fd4b.dir\\Debug\\\\" /Fd"cmTC_4fd4b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\Debug\\cmTC_4fd4b.exe" /INCREMENTAL /ILK:"cmTC_4fd4b.dir\\Debug\\cmTC_4fd4b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-hkrqed/Debug/cmTC_4fd4b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-hkrqed/Debug/cmTC_4fd4b.lib" /MACHINE:X64  /machine:x64 cmTC_4fd4b.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，函数 main 中引用了该符号 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\cmTC_4fd4b.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\Debug\\cmTC_4fd4b.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\cmTC_4fd4b.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\cmTC_4fd4b.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\cmTC_4fd4b.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，函数 main 中引用了该符号 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\cmTC_4fd4b.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\Debug\\cmTC_4fd4b.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hkrqed\\cmTC_4fd4b.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:354 (check_function_exists)"
+    checks:
+      - "Looking for strerror"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-4aoeki"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-4aoeki"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_STRERROR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-4aoeki'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0dd8c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:07。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4aoeki\\cmTC_0dd8c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_0dd8c.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4aoeki\\Debug\\”。
+          正在创建目录“cmTC_0dd8c.dir\\Debug\\cmTC_0dd8c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_0dd8c.dir\\Debug\\cmTC_0dd8c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=strerror /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_0dd8c.dir\\Debug\\\\" /Fd"cmTC_0dd8c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4aoeki\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4aoeki\\Debug\\cmTC_0dd8c.exe" /INCREMENTAL /ILK:"cmTC_0dd8c.dir\\Debug\\cmTC_0dd8c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-4aoeki/Debug/cmTC_0dd8c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-4aoeki/Debug/cmTC_0dd8c.lib" /MACHINE:X64  /machine:x64 cmTC_0dd8c.dir\\Debug\\CheckFunctionExists.obj
+          cmTC_0dd8c.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4aoeki\\Debug\\cmTC_0dd8c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_0dd8c.dir\\Debug\\cmTC_0dd8c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_0dd8c.dir\\Debug\\cmTC_0dd8c.tlog\\cmTC_0dd8c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4aoeki\\cmTC_0dd8c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:360 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-kd6bd0"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-kd6bd0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-kd6bd0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d943d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:08。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd6bd0\\cmTC_d943d.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d943d.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd6bd0\\Debug\\”。
+          正在创建目录“cmTC_d943d.dir\\Debug\\cmTC_d943d.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d943d.dir\\Debug\\cmTC_d943d.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D _POSIX_C_SOURCE=200112L /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_d943d.dir\\Debug\\\\" /Fd"cmTC_d943d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd6bd0\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd6bd0\\CheckSymbolExists.c(8,33): error C2065: “posix_memalign”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd6bd0\\cmTC_d943d.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd6bd0\\cmTC_d943d.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd6bd0\\cmTC_d943d.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd6bd0\\CheckSymbolExists.c(8,33): error C2065: “posix_memalign”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kd6bd0\\cmTC_d943d.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:367 (check_symbol_exists)"
+    checks:
+      - "Looking for aligned_alloc"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-kwunor"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-kwunor"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_ALIGNED_ALLOC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-kwunor'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_71055.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:09。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwunor\\cmTC_71055.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_71055.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwunor\\Debug\\”。
+          正在创建目录“cmTC_71055.dir\\Debug\\cmTC_71055.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_71055.dir\\Debug\\cmTC_71055.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D _ISOC11_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_71055.dir\\Debug\\\\" /Fd"cmTC_71055.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwunor\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwunor\\CheckSymbolExists.c(8,32): error C2065: “aligned_alloc”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwunor\\cmTC_71055.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwunor\\cmTC_71055.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwunor\\cmTC_71055.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwunor\\CheckSymbolExists.c(8,32): error C2065: “aligned_alloc”: 未声明的标识符 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwunor\\cmTC_71055.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:386 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_NO_INTERPOSITION"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-av2nok"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-av2nok"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_NO_INTERPOSITION"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-av2nok'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_367f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:09。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-av2nok\\cmTC_367f7.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_367f7.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-av2nok\\Debug\\”。
+          正在创建目录“cmTC_367f7.dir\\Debug\\cmTC_367f7.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_367f7.dir\\Debug\\cmTC_367f7.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_NO_INTERPOSITION /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_367f7.dir\\Debug\\\\" /Fd"cmTC_367f7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro -fno-semantic-interposition "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-av2nok\\src.c"
+        cl : 命令行  warning D9002: 忽略未知选项“-fno-semantic-interposition” [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-av2nok\\cmTC_367f7.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-av2nok\\Debug\\cmTC_367f7.exe" /INCREMENTAL /ILK:"cmTC_367f7.dir\\Debug\\cmTC_367f7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-av2nok/Debug/cmTC_367f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-av2nok/Debug/cmTC_367f7.lib" /MACHINE:X64  /machine:x64 cmTC_367f7.dir\\Debug\\src.obj
+          cmTC_367f7.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-av2nok\\Debug\\cmTC_367f7.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_367f7.dir\\Debug\\cmTC_367f7.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_367f7.dir\\Debug\\cmTC_367f7.tlog\\cmTC_367f7.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-av2nok\\cmTC_367f7.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-av2nok\\cmTC_367f7.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行  warning D9002: 忽略未知选项“-fno-semantic-interposition” [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-av2nok\\cmTC_367f7.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:391 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-k152pn"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-k152pn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_ATTRIBUTE_VISIBILITY_HIDDEN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-k152pn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2337e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:10。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2337e.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\Debug\\”。
+          正在创建目录“cmTC_2337e.dir\\Debug\\cmTC_2337e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2337e.dir\\Debug\\cmTC_2337e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_ATTRIBUTE_VISIBILITY_HIDDEN /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_2337e.dir\\Debug\\\\" /Fd"cmTC_2337e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c"
+          src.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“(”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2091: 函数返回函数 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“字符串”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2143: 语法错误: 缺少“{”(在“字符串”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2059: 语法错误:“字符串” [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2059: 语法错误:“)” [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“(”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2091: 函数返回函数 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“字符串”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2143: 语法错误: 缺少“{”(在“字符串”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2059: 语法错误:“字符串” [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\src.c(2,9): error C2059: 语法错误:“)” [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k152pn\\cmTC_2337e.vcxproj]
+        
+            0 个警告
+            6 个错误
+        
+        已用时间 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:405 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-d9ud27"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-d9ud27"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_ATTRIBUTE_VISIBILITY_INTERNAL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-d9ud27'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fff3d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:11。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_fff3d.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\Debug\\”。
+          正在创建目录“cmTC_fff3d.dir\\Debug\\cmTC_fff3d.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_fff3d.dir\\Debug\\cmTC_fff3d.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_ATTRIBUTE_VISIBILITY_INTERNAL /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_fff3d.dir\\Debug\\\\" /Fd"cmTC_fff3d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c"
+          src.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“(”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2091: 函数返回函数 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“字符串”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2143: 语法错误: 缺少“{”(在“字符串”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2059: 语法错误:“字符串” [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2059: 语法错误:“)” [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“(”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2091: 函数返回函数 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2143: 语法错误: 缺少“)”(在“字符串”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2143: 语法错误: 缺少“{”(在“字符串”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2059: 语法错误:“字符串” [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\src.c(2,9): error C2059: 语法错误:“)” [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9ud27\\cmTC_fff3d.vcxproj]
+        
+            0 个警告
+            6 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:419 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ATTRIBUTE_ALIGNED"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-pam3lb"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-pam3lb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_ATTRIBUTE_ALIGNED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-pam3lb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2d3c1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:11。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pam3lb\\cmTC_2d3c1.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2d3c1.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pam3lb\\Debug\\”。
+          正在创建目录“cmTC_2d3c1.dir\\Debug\\cmTC_2d3c1.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2d3c1.dir\\Debug\\cmTC_2d3c1.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_ATTRIBUTE_ALIGNED /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_2d3c1.dir\\Debug\\\\" /Fd"cmTC_2d3c1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pam3lb\\src.c"
+          src.c
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pam3lb\\src.c(2,41): error C2143: 语法错误: 缺少“;”(在“类型”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pam3lb\\cmTC_2d3c1.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pam3lb\\cmTC_2d3c1.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pam3lb\\cmTC_2d3c1.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pam3lb\\src.c(2,41): error C2143: 语法错误: 缺少“;”(在“类型”的前面) [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pam3lb\\cmTC_2d3c1.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:433 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_CTZ"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-s7w8oe"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-s7w8oe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_BUILTIN_CTZ"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-s7w8oe'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_92814.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:12。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\cmTC_92814.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_92814.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\Debug\\”。
+          正在创建目录“cmTC_92814.dir\\Debug\\cmTC_92814.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_92814.dir\\Debug\\cmTC_92814.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_BUILTIN_CTZ /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_92814.dir\\Debug\\\\" /Fd"cmTC_92814.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\Debug\\cmTC_92814.exe" /INCREMENTAL /ILK:"cmTC_92814.dir\\Debug\\cmTC_92814.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-s7w8oe/Debug/cmTC_92814.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-s7w8oe/Debug/cmTC_92814.lib" /MACHINE:X64  /machine:x64 cmTC_92814.dir\\Debug\\src.obj
+        src.obj : error LNK2019: 无法解析的外部符号 __builtin_ctz，函数 main 中引用了该符号 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\cmTC_92814.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\Debug\\cmTC_92814.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\cmTC_92814.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\cmTC_92814.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\cmTC_92814.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          src.obj : error LNK2019: 无法解析的外部符号 __builtin_ctz，函数 main 中引用了该符号 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\cmTC_92814.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\Debug\\cmTC_92814.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7w8oe\\cmTC_92814.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.56
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:449 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_CTZLL"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-0yp0pg"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-0yp0pg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_BUILTIN_CTZLL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-0yp0pg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_646e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:12。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\cmTC_646e5.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_646e5.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\Debug\\”。
+          正在创建目录“cmTC_646e5.dir\\Debug\\cmTC_646e5.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_646e5.dir\\Debug\\cmTC_646e5.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_BUILTIN_CTZLL /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_646e5.dir\\Debug\\\\" /Fd"cmTC_646e5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\Debug\\cmTC_646e5.exe" /INCREMENTAL /ILK:"cmTC_646e5.dir\\Debug\\cmTC_646e5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-0yp0pg/Debug/cmTC_646e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-0yp0pg/Debug/cmTC_646e5.lib" /MACHINE:X64  /machine:x64 cmTC_646e5.dir\\Debug\\src.obj
+        src.obj : error LNK2019: 无法解析的外部符号 __builtin_ctzll，函数 main 中引用了该符号 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\cmTC_646e5.vcxproj]
+        D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\Debug\\cmTC_646e5.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\cmTC_646e5.vcxproj]
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\cmTC_646e5.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\cmTC_646e5.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          src.obj : error LNK2019: 无法解析的外部符号 __builtin_ctzll，函数 main 中引用了该符号 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\cmTC_646e5.vcxproj]
+          D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\Debug\\cmTC_646e5.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0yp0pg\\cmTC_646e5.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:465 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_PTRDIFF_T"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-76qy0f"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-76qy0f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_PTRDIFF_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-76qy0f'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_52261.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:13。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76qy0f\\cmTC_52261.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_52261.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76qy0f\\Debug\\”。
+          正在创建目录“cmTC_52261.dir\\Debug\\cmTC_52261.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_52261.dir\\Debug\\cmTC_52261.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_PTRDIFF_T /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_52261.dir\\Debug\\\\" /Fd"cmTC_52261.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76qy0f\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76qy0f\\Debug\\cmTC_52261.exe" /INCREMENTAL /ILK:"cmTC_52261.dir\\Debug\\cmTC_52261.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-76qy0f/Debug/cmTC_52261.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-76qy0f/Debug/cmTC_52261.lib" /MACHINE:X64  /machine:x64 cmTC_52261.dir\\Debug\\src.obj
+          cmTC_52261.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76qy0f\\Debug\\cmTC_52261.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_52261.dir\\Debug\\cmTC_52261.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_52261.dir\\Debug\\cmTC_52261.tlog\\cmTC_52261.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76qy0f\\cmTC_52261.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:177 (check_c_source_compiles)"
+      - "CMakeLists.txt:788 (check_avx2_intrinsics)"
+    checks:
+      - "Performing Test HAVE_AVX2_INTRIN"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-and91x"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-and91x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_AVX2_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-and91x'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f5f39.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:14。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-and91x\\cmTC_f5f39.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f5f39.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-and91x\\Debug\\”。
+          正在创建目录“cmTC_f5f39.dir\\Debug\\cmTC_f5f39.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f5f39.dir\\Debug\\cmTC_f5f39.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_AVX2_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_f5f39.dir\\Debug\\\\" /Fd"cmTC_f5f39.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-and91x\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-and91x\\Debug\\cmTC_f5f39.exe" /INCREMENTAL /ILK:"cmTC_f5f39.dir\\Debug\\cmTC_f5f39.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-and91x/Debug/cmTC_f5f39.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-and91x/Debug/cmTC_f5f39.lib" /MACHINE:X64  /machine:x64 cmTC_f5f39.dir\\Debug\\src.obj
+          cmTC_f5f39.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-and91x\\Debug\\cmTC_f5f39.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_f5f39.dir\\Debug\\cmTC_f5f39.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f5f39.dir\\Debug\\cmTC_f5f39.tlog\\cmTC_f5f39.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-and91x\\cmTC_f5f39.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:103 (check_c_source_compiles)"
+      - "CMakeLists.txt:806 (check_avx512_intrinsics)"
+    checks:
+      - "Performing Test HAVE_AVX512_INTRIN"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-gj9o7l"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-gj9o7l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_AVX512_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-gj9o7l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f897c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:15。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj9o7l\\cmTC_f897c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f897c.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj9o7l\\Debug\\”。
+          正在创建目录“cmTC_f897c.dir\\Debug\\cmTC_f897c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f897c.dir\\Debug\\cmTC_f897c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_AVX512_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /arch:AVX512 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_f897c.dir\\Debug\\\\" /Fd"cmTC_f897c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj9o7l\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj9o7l\\Debug\\cmTC_f897c.exe" /INCREMENTAL /ILK:"cmTC_f897c.dir\\Debug\\cmTC_f897c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-gj9o7l/Debug/cmTC_f897c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-gj9o7l/Debug/cmTC_f897c.lib" /MACHINE:X64  /machine:x64 cmTC_f897c.dir\\Debug\\src.obj
+          cmTC_f897c.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj9o7l\\Debug\\cmTC_f897c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_f897c.dir\\Debug\\cmTC_f897c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f897c.dir\\Debug\\cmTC_f897c.tlog\\cmTC_f897c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj9o7l\\cmTC_f897c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:114 (check_c_source_compiles)"
+      - "CMakeLists.txt:806 (check_avx512_intrinsics)"
+    checks:
+      - "Performing Test HAVE_MASK_INTRIN"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-e88k8a"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-e88k8a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_MASK_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-e88k8a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c34ae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:15。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e88k8a\\cmTC_c34ae.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c34ae.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e88k8a\\Debug\\”。
+          正在创建目录“cmTC_c34ae.dir\\Debug\\cmTC_c34ae.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c34ae.dir\\Debug\\cmTC_c34ae.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_MASK_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /arch:AVX512 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_c34ae.dir\\Debug\\\\" /Fd"cmTC_c34ae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e88k8a\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e88k8a\\Debug\\cmTC_c34ae.exe" /INCREMENTAL /ILK:"cmTC_c34ae.dir\\Debug\\cmTC_c34ae.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-e88k8a/Debug/cmTC_c34ae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-e88k8a/Debug/cmTC_c34ae.lib" /MACHINE:X64  /machine:x64 cmTC_c34ae.dir\\Debug\\src.obj
+          cmTC_c34ae.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e88k8a\\Debug\\cmTC_c34ae.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_c34ae.dir\\Debug\\cmTC_c34ae.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_c34ae.dir\\Debug\\cmTC_c34ae.tlog\\cmTC_c34ae.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e88k8a\\cmTC_c34ae.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:149 (check_c_source_compiles)"
+      - "CMakeLists.txt:822 (check_avx512vnni_intrinsics)"
+    checks:
+      - "Performing Test HAVE_AVX512VNNI_INTRIN"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-mm6xd0"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-mm6xd0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_AVX512VNNI_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-mm6xd0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f7733.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:16。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mm6xd0\\cmTC_f7733.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f7733.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mm6xd0\\Debug\\”。
+          正在创建目录“cmTC_f7733.dir\\Debug\\cmTC_f7733.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f7733.dir\\Debug\\cmTC_f7733.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_AVX512VNNI_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /arch:AVX512 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_f7733.dir\\Debug\\\\" /Fd"cmTC_f7733.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mm6xd0\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mm6xd0\\Debug\\cmTC_f7733.exe" /INCREMENTAL /ILK:"cmTC_f7733.dir\\Debug\\cmTC_f7733.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-mm6xd0/Debug/cmTC_f7733.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-mm6xd0/Debug/cmTC_f7733.lib" /MACHINE:X64  /machine:x64 cmTC_f7733.dir\\Debug\\src.obj
+          cmTC_f7733.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mm6xd0\\Debug\\cmTC_f7733.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_f7733.dir\\Debug\\cmTC_f7733.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f7733.dir\\Debug\\cmTC_f7733.tlog\\cmTC_f7733.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mm6xd0\\cmTC_f7733.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:494 (check_c_source_compiles)"
+      - "CMakeLists.txt:834 (check_sse42_intrinsics)"
+    checks:
+      - "Performing Test HAVE_SSE42_INTRIN"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-cbqozm"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-cbqozm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SSE42_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-cbqozm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_805c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:17。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cbqozm\\cmTC_805c7.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_805c7.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cbqozm\\Debug\\”。
+          正在创建目录“cmTC_805c7.dir\\Debug\\cmTC_805c7.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_805c7.dir\\Debug\\cmTC_805c7.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_SSE42_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_805c7.dir\\Debug\\\\" /Fd"cmTC_805c7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cbqozm\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cbqozm\\Debug\\cmTC_805c7.exe" /INCREMENTAL /ILK:"cmTC_805c7.dir\\Debug\\cmTC_805c7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-cbqozm/Debug/cmTC_805c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-cbqozm/Debug/cmTC_805c7.lib" /MACHINE:X64  /machine:x64 cmTC_805c7.dir\\Debug\\src.obj
+          cmTC_805c7.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cbqozm\\Debug\\cmTC_805c7.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_805c7.dir\\Debug\\cmTC_805c7.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_805c7.dir\\Debug\\cmTC_805c7.tlog\\cmTC_805c7.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cbqozm\\cmTC_805c7.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:446 (check_c_source_compiles)"
+      - "CMakeLists.txt:846 (check_sse2_intrinsics)"
+    checks:
+      - "Performing Test HAVE_SSE2_INTRIN"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-zift4m"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-zift4m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SSE2_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-zift4m'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_63d4c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:18。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zift4m\\cmTC_63d4c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_63d4c.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zift4m\\Debug\\”。
+          正在创建目录“cmTC_63d4c.dir\\Debug\\cmTC_63d4c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_63d4c.dir\\Debug\\cmTC_63d4c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_SSE2_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_63d4c.dir\\Debug\\\\" /Fd"cmTC_63d4c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zift4m\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zift4m\\Debug\\cmTC_63d4c.exe" /INCREMENTAL /ILK:"cmTC_63d4c.dir\\Debug\\cmTC_63d4c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-zift4m/Debug/cmTC_63d4c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-zift4m/Debug/cmTC_63d4c.lib" /MACHINE:X64  /machine:x64 cmTC_63d4c.dir\\Debug\\src.obj
+          cmTC_63d4c.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zift4m\\Debug\\cmTC_63d4c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_63d4c.dir\\Debug\\cmTC_63d4c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_63d4c.dir\\Debug\\cmTC_63d4c.tlog\\cmTC_63d4c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zift4m\\cmTC_63d4c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:469 (check_c_source_compiles)"
+      - "CMakeLists.txt:863 (check_ssse3_intrinsics)"
+    checks:
+      - "Performing Test HAVE_SSSE3_INTRIN"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-qef0xy"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-qef0xy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SSSE3_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-qef0xy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cc7af.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:19。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qef0xy\\cmTC_cc7af.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_cc7af.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qef0xy\\Debug\\”。
+          正在创建目录“cmTC_cc7af.dir\\Debug\\cmTC_cc7af.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_cc7af.dir\\Debug\\cmTC_cc7af.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_SSSE3_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_cc7af.dir\\Debug\\\\" /Fd"cmTC_cc7af.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qef0xy\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qef0xy\\Debug\\cmTC_cc7af.exe" /INCREMENTAL /ILK:"cmTC_cc7af.dir\\Debug\\cmTC_cc7af.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-qef0xy/Debug/cmTC_cc7af.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-qef0xy/Debug/cmTC_cc7af.lib" /MACHINE:X64  /machine:x64 cmTC_cc7af.dir\\Debug\\src.obj
+          cmTC_cc7af.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qef0xy\\Debug\\cmTC_cc7af.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_cc7af.dir\\Debug\\cmTC_cc7af.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_cc7af.dir\\Debug\\cmTC_cc7af.tlog\\cmTC_cc7af.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qef0xy\\cmTC_cc7af.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:246 (check_c_source_compiles)"
+      - "CMakeLists.txt:875 (check_pclmulqdq_intrinsics)"
+    checks:
+      - "Performing Test HAVE_PCLMULQDQ_INTRIN"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-552qe4"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-552qe4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_PCLMULQDQ_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-552qe4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9c37a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:19。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-552qe4\\cmTC_9c37a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_9c37a.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-552qe4\\Debug\\”。
+          正在创建目录“cmTC_9c37a.dir\\Debug\\cmTC_9c37a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_9c37a.dir\\Debug\\cmTC_9c37a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_PCLMULQDQ_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_9c37a.dir\\Debug\\\\" /Fd"cmTC_9c37a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-552qe4\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-552qe4\\Debug\\cmTC_9c37a.exe" /INCREMENTAL /ILK:"cmTC_9c37a.dir\\Debug\\cmTC_9c37a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-552qe4/Debug/cmTC_9c37a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-552qe4/Debug/cmTC_9c37a.lib" /MACHINE:X64  /machine:x64 cmTC_9c37a.dir\\Debug\\src.obj
+          cmTC_9c37a.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-552qe4\\Debug\\cmTC_9c37a.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_9c37a.dir\\Debug\\cmTC_9c37a.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_9c37a.dir\\Debug\\cmTC_9c37a.tlog\\cmTC_9c37a.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-552qe4\\cmTC_9c37a.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:268 (check_c_source_compiles)"
+      - "CMakeLists.txt:884 (check_vpclmulqdq_intrinsics)"
+    checks:
+      - "Performing Test HAVE_VPCLMULQDQ_INTRIN"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-l7c04v"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-l7c04v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_VPCLMULQDQ_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-l7c04v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_51cb3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:20。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7c04v\\cmTC_51cb3.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_51cb3.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7c04v\\Debug\\”。
+          正在创建目录“cmTC_51cb3.dir\\Debug\\cmTC_51cb3.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_51cb3.dir\\Debug\\cmTC_51cb3.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_VPCLMULQDQ_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_51cb3.dir\\Debug\\\\" /Fd"cmTC_51cb3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7c04v\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7c04v\\Debug\\cmTC_51cb3.exe" /INCREMENTAL /ILK:"cmTC_51cb3.dir\\Debug\\cmTC_51cb3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-l7c04v/Debug/cmTC_51cb3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-l7c04v/Debug/cmTC_51cb3.lib" /MACHINE:X64  /machine:x64 cmTC_51cb3.dir\\Debug\\src.obj
+          cmTC_51cb3.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7c04v\\Debug\\cmTC_51cb3.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_51cb3.dir\\Debug\\cmTC_51cb3.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_51cb3.dir\\Debug\\cmTC_51cb3.tlog\\cmTC_51cb3.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7c04v\\cmTC_51cb3.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/LenovoSoftstore/Install/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:533 (check_c_source_compiles)"
+      - "CMakeLists.txt:905 (check_xsave_intrinsics)"
+    checks:
+      - "Performing Test HAVE_XSAVE_INTRIN"
+    directories:
+      source: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-4v9vkx"
+      binary: "D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-4v9vkx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_XSAVE_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-4v9vkx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a6448.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2024/10/24 15:55:21。
+        
+        节点 1 上的项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4v9vkx\\cmTC_a6448.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_a6448.dir\\Debug\\”。
+          正在创建目录“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4v9vkx\\Debug\\”。
+          正在创建目录“cmTC_a6448.dir\\Debug\\cmTC_a6448.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_a6448.dir\\Debug\\cmTC_a6448.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_XSAVE_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_a6448.dir\\Debug\\\\" /Fd"cmTC_a6448.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4v9vkx\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4v9vkx\\Debug\\cmTC_a6448.exe" /INCREMENTAL /ILK:"cmTC_a6448.dir\\Debug\\cmTC_a6448.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-4v9vkx/Debug/cmTC_a6448.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/CMakeFiles/CMakeScratch/TryCompile-4v9vkx/Debug/cmTC_a6448.lib" /MACHINE:X64  /machine:x64 cmTC_a6448.dir\\Debug\\src.obj
+          cmTC_a6448.vcxproj -> D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4v9vkx\\Debug\\cmTC_a6448.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_a6448.dir\\Debug\\cmTC_a6448.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_a6448.dir\\Debug\\cmTC_a6448.tlog\\cmTC_a6448.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Files\\share\\lishuangshuang\\pipeline\\learning\\rust\\hello\\target\\debug\\build\\libz-ng-sys-f7817d9fbc65df7f\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4v9vkx\\cmTC_a6448.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.57
+        
+      exitCode: 0
+...

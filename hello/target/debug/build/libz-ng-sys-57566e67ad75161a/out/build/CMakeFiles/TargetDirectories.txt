@@ -1,0 +1,5 @@
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/build/CMakeFiles/zlib.dir
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/build/CMakeFiles/PACKAGE.dir
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/build/CMakeFiles/INSTALL.dir
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/build/CMakeFiles/ALL_BUILD.dir
+D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-57566e67ad75161a/out/build/CMakeFiles/ZERO_CHECK.dir

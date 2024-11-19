@@ -1,0 +1,10 @@
+^D:\FILES\SHARE\LISHUANGSHUANG\PIPELINE\LEARNING\RUST\HELLO\TARGET\DEBUG\BUILD\LIBZ-NG-SYS-F7817D9FBC65DF7F\OUT\BUILD\CMAKEFILES\9E4C9F38CB8233F1D0F9FF435D02E444\GENERATE.STAMP.RULE
+setlocal
+D:\LenovoSoftstore\Install\CMake\bin\cmake.exe -SC:/Users/lishuangshuang/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng -BD:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Files/share/lishuangshuang/pipeline/learning/rust/hello/target/debug/build/libz-ng-sys-f7817d9fbc65df7f/out/build/zlib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+cargo:rustc-cfg=no_literal_byte_character
+cargo:rustc-cfg=no_literal_c_string
+cargo:rerun-if-changed=build.rs

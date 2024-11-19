@@ -1,0 +1,12 @@
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/mtx2h5/target/debug/deps/libanstyle-62835b03af746f88.rmeta: /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/macros.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/color.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/effect.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/reset.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/style.rs
+
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/mtx2h5/target/debug/deps/libanstyle-62835b03af746f88.rlib: /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/macros.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/color.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/effect.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/reset.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/style.rs
+
+/mnt/hgfs/lishuangshuang/pipeline/learning/rust/mtx2h5/target/debug/deps/anstyle-62835b03af746f88.d: /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/lib.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/macros.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/color.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/effect.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/reset.rs /root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/style.rs
+
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/lib.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/macros.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/color.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/effect.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/reset.rs:
+/root/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/anstyle-1.0.8/src/style.rs:
