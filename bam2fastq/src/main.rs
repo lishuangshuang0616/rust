@@ -1,4 +1,5 @@
 
+use std::fmt::Result;
 use std::fs::create_dir;
 use std::fs::File;
 use std::io::{BufferWriter, Write};
@@ -8,6 +9,7 @@ use std::collections::{HashMap, HashSet};
 use regex::Regex;
 use anyhow::{anyhow, Context, Error};
 use flate2::write::GzEncoder;
+use tempfile::NamedTempFile;
 
 use rust_htslib::bam::record::{Aux, Record};
 use rust_htslib::bam::{self, Read};
@@ -92,7 +94,7 @@ type FormattedReadPair = (
     FqRecord,
     Option<FqRecord>,
     Option<FqRecord>,
-)
+);
 
 #[derive(Debug, Deserialize, Clone)]
 pub struct Args {
@@ -100,7 +102,6 @@ pub struct Args {
     args_output_path: String,
     flag_nthreads: usize,
     flag_locus: Option<String>,
-    flag_bx_list: Option<String>,
     flag_reads_per_fastq: usize,
     flag_gemcode: bool,
     flag_lr20: bool,
@@ -422,7 +423,8 @@ impl FormatBamRecords {
                     str::from_utf8(rec.qname()).unwrap(),
                     tag,
                     tag_type
-                )
+                );
+                return Err(e);
             }
             
         }
@@ -479,10 +481,11 @@ impl FormatBamRecords {
             }
         }
         let fq_rec = FqRecord {
-            header: head,
-            read: read,
+            head:head,
+            seq: read,
             qual: qv,
         };
+        
         Ok(fq_rec)    
     }
 
@@ -587,7 +590,7 @@ impl FormatBamRecords {
     pub fn is_double_ended(&self) -> bool {
         self.r1_spec.contains(&SpecEntry::Read) && self.r2_spec.contains(&SpecEntry::Read)
     }
-};
+}
 
 pub fn complement(b: u8) -> u8 {
     match b {
@@ -807,7 +810,9 @@ impl FastqWriter {
         self.i2 = paths.3.as_ref().map(Self::open_gzip_writer);
         self.n_chunks += 1;
         self.chunk_written = 0;
-        slef.path_sets.push(paths);
+        self.path_sets.push(paths);
+        
+        Ok(())
     }
 
     fn write(
@@ -887,6 +892,7 @@ impl FastqManager {
         if let &Some(ref rg) = rg {
             self.writers.get_mut(rg).map(|w| w.write(r1, r2, i1, i2));
         }
+        Ok(())
     }
     
     pub fn total_written(&self) -> usize {
@@ -937,13 +943,13 @@ pub fn go(
         Some(ref locus) => {
             let loc = locus::Locus::from_str(locus)
                 .context("Invalid locus argument. Please specify a locus in the format chr:start-end")?;
-            let mut bam = bam::IndexedReader::from_path(&args.arg_bam).
+            let mut bam = bam::IndexedReader::from_path(&args.arg_bam)
                 .context("Failed to open BAM file. The BAM file must be indexed when using --locus",)?;
             
             let tid = bam
                 .header()
                 .tid(loc.chrom.as_bytes())
-                .ok_or_else(|| anyhow!("Chromosome not found in BAM header: {}", loc.chrom))?;\
+                .ok_or_else(|| anyhow!("Chromosome not found in BAM header: {}", loc.chrom))?;
             
             bam.fetch((tid, loc.start, loc.end))?;
             inner(args.clone(), cache_size, bam)
@@ -953,7 +959,7 @@ pub fn go(
                 .context("Error opening BAM file")?;
 
             inner(args, cache_size, bam)
-        };       
+        }       
     }
 }
 
@@ -966,9 +972,103 @@ pub fn inner<R: bam::Read>(
     
     let formatter = {
         let header_fmt = FormatBamRecords::from_headers(&bam);
-        
+        match header_fmt {
+            Some(mut f) => {
+                if f.r1_spec == vec![SpecEntry::Read]
+                    && f.i1_spec == vec![SpecEntry::Tags("CR".to_string(), "CY".to_string())]
+                    && f.i2_spec == vec![SpecEntry::Tags("UR".to_string(), "UY".to_string())]
+                {
+                    f.rename = Some(vec![
+                        "R1".to_string(),
+                        "R3".to_string(),
+                        "R2".to_string(),
+                        "I1".to_string(),
+                    ])
+                }
+
+                if args.flag_gemcode {
+                    return Err(anyhow!("Do not use a pipeline-specific command-line flag: --gemcode. Supplied BAM file already contains bamtofastq headers."));
+                }
+
+                if args.flag_lr20 {
+                    return Err(anyhow!("Do not use a pipeline-specific command-line flag: --lr20. Supplied BAM file already contains bamtofastq headers."));
+                }
+
+                if args.flag_cr11 {
+                    return Err(anyhow!("Do not use a pipeline-specific command-line flag: --cr11. Supplied BAM file already contains bamtofastq headers."));
+                }
+                
+                f
+            }            
+            None => {
+                if args.flag_gemcode {
+                    FormatBamRecords::gemcode(&bam)
+                } else if args.flag_lr20 {
+                    FormatBamRecords::lr20(&bam)
+                } else if args.flag_cr11 {
+                    FormatBamRecords::cr11(&bam)
+                } else {
+                    println!("Unrecognized 10x BAM file. For BAM files produced by older pipelines, use one of the following flags:");
+                    println!("--gemcode   BAM files created with GemCode data using Longranger 1.0 - 1.3");
+                    println!("--lr20      BAM files created with Longranger 2.0 using Chromium Genome data");
+                    println!("--cr11      BAM files created with Cell Ranger 1.0-1.1 using Single Cell 3' v1 data");
+                    return Ok(vec![]);
+                }
+            }
+        }
+    };
+    
+    let out_path = Path::new(&args.args_output_path);
+    create_dir(&args.args_output_path).context(anyhow!(
+        "Failed to create output directory: {:?}. Please ensure that the directory exists and is writable.",
+        &out_path
+    ))?;
+
+    let fq = FastqManager::new(
+        out_path,
+        formatter.clone(),
+        "bamtofastq".to_string(),
+        args.flag_reads_per_fastq
+    );
+    
+    if formatter.is_double_ended() {
+        proc_double_ended(
+            bam.records(),
+            formatter,
+            fq,
+            cache_size,
+            args.flag_locus.is_some(),
+            args.flag_relaxed,
+        );
+    } else {
+        proc_single_ended(
+            bam.records(),
+            formatter,
+            fq,
+        )
     }
     
 }
 
-
+fn proc_double_ended<I, E> (
+    records: I,
+    formatter: FormatBamRecords,
+    mut fq: FastqManager,
+    cache_size: usize,
+    locus: bool,
+    relaxed: bool,
+) -> Result<Vec<OutPaths>, Error>
+where
+    I: Iterator<Item = Result<Record, E>>,
+    Result<Record, E>: Context<Record, E>,
+{
+    let tmp_file = NameTempFile::new_in(&fq.out_path)?;
+    
+    let total_read_pairs =  {
+        let mut rp_cache = RpCache::new(cache_size, relaxed);
+        
+        let w: ShardWriter<SerFq, SerFqSort> = 
+        
+    }
+    
+}
